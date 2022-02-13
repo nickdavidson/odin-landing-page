@@ -1,8 +1,52 @@
-.info {
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+footer {
+    color: #E5E7EB;
+}
+
+ header h1 {
+     color: #F9FAF8;
+     font-size: 24px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     gap: 24px;
+ }
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: inline-block;
+    padding: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero {
 
 }
 
-.images {
+.info {
 
 }
 
