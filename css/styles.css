@@ -68,7 +68,31 @@ nav a {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+}
+
+.info-content figure {
+    max-width: 200px;
+}
+
+.info-content figcaption {
+    text-align: center;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 .quote {
