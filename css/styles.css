@@ -168,6 +168,11 @@ nav a {
     border: none;
 }
 
+.signup-button a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .signup-container .signup-button {
     border: 2px solid #F9FAF8;
     margin-bottom: 0;
