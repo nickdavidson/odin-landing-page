@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
@@ -58,7 +58,7 @@ nav a {
 .hero h2 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 0;
 }
 
@@ -118,7 +118,7 @@ nav a {
 
 .quote-text {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     margin-bottom: 0;
 }
@@ -161,7 +161,7 @@ nav a {
 
 .signup-button {
     color:#E5E7EB;
-    font-weight: 800;
+    font-weight: 900;
     background-color: #3882F6;
     padding: 8px 24px;
     border-radius: 8px;
