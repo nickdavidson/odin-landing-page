@@ -67,12 +67,6 @@ nav a {
     height: auto;
 }
 
-.hero-content {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 .hero-left {
     width: 500px;
 }
